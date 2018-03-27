@@ -19,7 +19,7 @@ the metadata file name should be folder.metadata.json
 
 when using a single metadata file per folder you need to add the filename as the key.
 
-[meta per dir](./meta%20per%20dir)
+[meta per folder](./meta%20per%20folder)
 
 !!! note
 the metadata file only describes the specifiec folder without sub folders.
