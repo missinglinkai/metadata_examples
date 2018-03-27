@@ -23,11 +23,10 @@ when using a single metadata file per folder you need to add the filename as the
 [meta per folder](./meta%20per%20folder)
 
 
-##### The metadata file only describes the specifiec folder without sub folders.
-##### You need to create a metadata file for each synced folder.
+##### The metadata file only describes the specifiec folder without sub folders. You need to create a metadata file for each synced folder.
 
 ### case 3 : metadata with annotations
 
-The metadata files are used only for queryable metadata. if you need addinal metadata for the training purpose for example annotations you need to add that file to the data point. For more explanation read here <link>
+The metadata files are used only for queryable metadata. if you need additional metadata for the training purpose for example annotations you need to add that file to the data point. 
 
 [meta with annotations](./meta%20with%20annotations)
