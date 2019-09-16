@@ -1,3 +1,3 @@
 ```bash
-mali data sync yourDataVolumeID --dataPath ./Data
+ml data sync yourDataVolumeID --data-path ./Data
 ```
