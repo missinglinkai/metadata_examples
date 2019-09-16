@@ -1,32 +1,33 @@
 # Metadata Sync Examples
 
-Tutorials about different modes of syncing metadata.
-There are 3 ways to attached metadata to data points using MALI CLI sync command.
+This repo presents tutorials about different modes for syncing metadata.
+
+There are three ways to attach metadata to data points using the MissingLink CLI `ml sync` command.
 
 
 ## Examples
 
-### case 1 : metadata file for each data point
+### Case 1: Metadata file for each data point
 
 In order to attached queryable metadata to a specific data point you need to create a metadata file for each file that consists the data point.
-The metadata file should be in the same folder as the data point. e.g. 1.png and 1.png.metadata.json
+The metadata file should be in the same folder as the data point. For example: 1.png and 1.png.metadata.json
 
 [meta per file example](./meta%20per%20file)
 
-### case 2 : one metadata file for entire folder
+### Case 2: One metadata file for entire folder
 
-Instead of creating a metadata file for each data point there is a way to edit a single metadata file per folder.
-The metadata file name should be folder.metadata.json .
+Instead of creating a metadata file for each data point, there is a way to edit a single metadata file per folder.
+The metadata file name should be folder.metadata.json.
 
-when using a single metadata file per folder you need to add the filename as the key.
+When using a single metadata file per folder, you need to add the filename as the key.
 
 [meta per folder](./meta%20per%20folder)
 
 
-##### The metadata file only describes the specifiec folder without sub folders. You need to create a metadata file for each synced folder.
+##### The metadata file only describes the specific folder without subfolders. You need to create a metadata file for each synced folder.
 
-### case 3 : metadata with annotations
+### Case 3: Metadata with annotations
 
-The metadata files are used only for queryable metadata. if you need additional metadata for the training purpose for example annotations you need to add that file to the data point. 
+The metadata files are used only for queryable metadata. If you need additional metadata for the training purposes, for example annotations, you need to add that file to the data point. 
 
 [meta with annotations](./meta%20with%20annotations)
